@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://volodeyka.github.io/al-folio/sitemap.xml
+Sitemap: https://volodeyka.github.io/sitemap.xml
