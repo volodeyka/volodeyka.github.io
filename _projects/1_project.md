@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: language 1
+description: HoTT
+redirect: https://arend-lang.github.io
+img: assets/img/arend.png
 importance: 1
-category: work
+category: top 3
 ---
 
 Every project has a beautiful feature showcase page.

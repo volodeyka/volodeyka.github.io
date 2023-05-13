@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: language 2
+description: simple and minimalistic
+redirect: https://arend-lang.github.io
+img: assets/img/haskell.png
 importance: 2
-category: work
+category: top 3
 ---
 
 Every project has a beautiful feature showcase page.

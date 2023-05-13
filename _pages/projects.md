@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: best programming languages
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: My version of top 3 best programming languages
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [top 3]
 horizontal: false
 ---
 
