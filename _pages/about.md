@@ -20,3 +20,5 @@ social: true  # includes social icons at the bottom of the page
 I am a second year PhD student at National University of Singapore, under a supervision of <a href='https://ilyasergey.net'>Ilya Sergey</a>. 
 
 I am broadly interested in formal verification, programming languages, type theory, category theory and HoTT.
+
+## Interesting fact
