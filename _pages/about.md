@@ -9,6 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <p><img src="assets/img/email.png" style="width:25px;height:20px;"> (λx,vgladshtxcomp.nus.edu.sg)@</p>
+    <p><img src="assets/img/loc.png" style="width:25px;height:20px;"></p>
     <p>School of Computing, National University of Singapore COM1, 13 Computing Drive, Singapore 117417</p>
 
 news: false  # includes a list of news items
