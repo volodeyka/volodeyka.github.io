@@ -5,10 +5,6 @@ on:
     branches:
       - master
       - main
-  pull_request:
-    branches:
-      - master
-      - main
   workflow_dispatch:
 
 permissions:
@@ -18,20 +14,28 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2.1'
-        bundler-cache: true
-    - name: Install and Build 🔧
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Install elan
       run: |
-        npm install -g mermaid.cli
-        bundle exec jekyll build
-    - name: Deploy 🚀
-      if: github.event_name != 'pull_request'
+        curl -sSf https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh | sh -s -- -y --default-toolchain none
+        echo "$HOME/.elan/bin" >> $GITHUB_PATH
+
+    - name: Cache .lake
+      uses: actions/cache@v4
+      with:
+        path: .lake
+        key: lake-${{ hashFiles('lean-toolchain', 'lakefile.toml', 'lake-manifest.json') }}
+        restore-keys: lake-
+
+    - name: Build literate
+      run: lake build Site:literate
+
+    - name: Generate HTML
+      run: lake exe generate-site --output html
+
+    - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: _site
-
+        folder: html
