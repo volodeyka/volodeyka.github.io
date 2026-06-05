@@ -12,6 +12,36 @@ open Verso Genre Blog
 
 :::pubEntry
 
+*Velvet: A Foundational Multi-Modal Verifier for Imperative Programs in Lean*
+
+Vladimir Gladshtein, Vitaly Kurin, Yueyang Feng, Dipesh Kafle, George Pîrlea, Qiyuan Zhao, Ilya Sergey. CAV 2026.
+
+[pdf](/static/pdf/velvet-cav26.pdf) [code](https://github.com/verse-lab/velvet)
+
+:::
+
+:::pubEntry
+
+*Formalization of a Realistic Verification-Condition Generator for an Intermediate Verification Language*
+
+Vladimir Gladshtein, K. Rustan M. Leino. ITP 2026.
+
+[pdf](/static/pdf/b3-itp26.pdf) [code](https://github.com/dafny-lang/b3)
+
+:::
+
+:::pubEntry
+
+*Lazy Proof Automation for Separation Logic*
+
+Valentin Mikhalchuk, Vladimir Gladshtein, Ilya Sergey. ITP 2026.
+
+[pdf](/static/pdf/yolo-itp26.pdf) [code](https://github.com/verse-lab/yolo)
+
+:::
+
+:::pubEntry
+
 *Foundational Multi-Modal Program Verifiers*
 
 Vladimir Gladshtein, George Pîrlea, Qiyuan Zhao, Vitaly Kurin, Ilya Sergey. POPL 2026.
