@@ -15,8 +15,10 @@ r#"
   flex-shrink: 0;
   max-width: 180px;
 }
-.profile-photo-col img {
+.profile-photo-col > img {
   width: 180px;
+  max-width: 100%;
+  height: auto;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -27,9 +29,14 @@ r#"
   line-height: 1.5;
 }
 .profile-caption img {
+  display: inline-block;
+  width: 1em;
   height: 1em;
-  width: auto;
-  vertical-align: middle;
+  margin-right: 0.3em;
+  vertical-align: -0.12em;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: contain;
 }
 .profile-bio {
   flex: 1;
@@ -43,7 +50,7 @@ r#"
   .profile-photo-col {
     max-width: 140px;
   }
-  .profile-photo-col img {
+  .profile-photo-col > img {
     width: 140px;
   }
 }
