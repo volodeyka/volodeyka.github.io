@@ -32,7 +32,7 @@ open Verso Genre Blog
 
 In general, people tend to use _Vlad_ as a shortened version of my name. However, that is [incorrect](https://en.wikipedia.org/wiki/Vladimir_(name)). If you want to use *accurate* short forms for my name, they would be:
 
- * Vova (_Most common_)
- * Volodya (_Most formal_)
- * Mira (_Most unusual_)
- * Vovan (_Most informal_)
+ * Vova _(Most common)_
+ * Volodya _(Most formal)_
+ * Mira _(Most unusual)_
+ * Vovan _(Most informal)_
